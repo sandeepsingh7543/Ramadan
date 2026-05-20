@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B037318F1443F8BEB7257D0A /* Pods_Ramadan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A011C042FC62EAB5A30CD9 /* Pods_Ramadan.framework */; };
+		D50BD6B82F4C2554007155AE /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD69C2F4C2554007155AE /* PersistenceController.swift */; };
+		D50BD6B92F4C2554007155AE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD69E2F4C2554007155AE /* LocationManager.swift */; };
+		D50BD6BA2F4C2554007155AE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD69F2F4C2554007155AE /* NotificationManager.swift */; };
+		D50BD6BB2F4C2554007155AE /* PrayerTimesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A32F4C2554007155AE /* PrayerTimesCalculator.swift */; };
+		D50BD6BC2F4C2554007155AE /* QiblaCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A42F4C2554007155AE /* QiblaCalculator.swift */; };
+		D50BD6BD2F4C2554007155AE /* DailyLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A62F4C2554007155AE /* DailyLogView.swift */; };
+		D50BD6BE2F4C2554007155AE /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A72F4C2554007155AE /* DashboardView.swift */; };
+		D50BD6BF2F4C2554007155AE /* MessagesNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A82F4C2554007155AE /* MessagesNotesView.swift */; };
+		D50BD6C02F4C2554007155AE /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6A92F4C2554007155AE /* PrayerTimesView.swift */; };
+		D50BD6C12F4C2554007155AE /* QiblaCompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6AA2F4C2554007155AE /* QiblaCompassView.swift */; };
+		D50BD6C42F4C2554007155AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6AF2F4C2554007155AE /* ContentView.swift */; };
+		D50BD6C72F4C2554007155AE /* RamadanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6B32F4C2554007155AE /* RamadanApp.swift */; };
+		D50BD6C82F4C2554007155AE /* RamadanDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50BD6B42F4C2554007155AE /* RamadanDataModel.xcdatamodeld */; };
+		D50BD6CB2F4C2554007155AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50BD6AE2F4C2554007155AE /* Assets.xcassets */; };
+		D5AD0CD42F4EFB5A00C6F62C /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD0CD22F4EFB5A00C6F62C /* AppTheme.swift */; };
+		D5AD0CD62F4F0A7300C6F62C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD0CD52F4F0A7300C6F62C /* CustomTabBar.swift */; };
+		D5AD0CDA2F4F0FB300C6F62C /* NextPrayerCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD0CD82F4F0FB300C6F62C /* NextPrayerCountdown.swift */; };
+		D5AD0CDB2F4F0FB300C6F62C /* DailyQuoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD0CD72F4F0FB300C6F62C /* DailyQuoteCard.swift */; };
+		D5AD0CDD2F4F0FCB00C6F62C /* EnhancedDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD0CDC2F4F0FCB00C6F62C /* EnhancedDashboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504E333E078E45ABBC5D9200 /* Pods-Ramadan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramadan.debug.xcconfig"; path = "Target Support Files/Pods-Ramadan/Pods-Ramadan.debug.xcconfig"; sourceTree = "<group>"; };
+		A94A150AA3E323F200A1DB74 /* Pods-Ramadan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ramadan.release.xcconfig"; path = "Target Support Files/Pods-Ramadan/Pods-Ramadan.release.xcconfig"; sourceTree = "<group>"; };
+		D4A011C042FC62EAB5A30CD9 /* Pods_Ramadan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ramadan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BD69C2F4C2554007155AE /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D50BD69E2F4C2554007155AE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D50BD69F2F4C2554007155AE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		D50BD6A12F4C2554007155AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D50BD6A32F4C2554007155AE /* PrayerTimesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesCalculator.swift; sourceTree = "<group>"; };
+		D50BD6A42F4C2554007155AE /* QiblaCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaCalculator.swift; sourceTree = "<group>"; };
+		D50BD6A62F4C2554007155AE /* DailyLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLogView.swift; sourceTree = "<group>"; };
+		D50BD6A72F4C2554007155AE /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D50BD6A82F4C2554007155AE /* MessagesNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesNotesView.swift; sourceTree = "<group>"; };
+		D50BD6A92F4C2554007155AE /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		D50BD6AA2F4C2554007155AE /* QiblaCompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaCompassView.swift; sourceTree = "<group>"; };
+		D50BD6AE2F4C2554007155AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50BD6AF2F4C2554007155AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D50BD6B02F4C2554007155AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50BD6B32F4C2554007155AE /* RamadanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamadanApp.swift; sourceTree = "<group>"; };
+		D50BD6B72F4C2554007155AE /* RamadanDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RamadanDataModel.xcdatamodel; sourceTree = "<group>"; };
+		D5A857EE2F44357B00C97884 /* Ramadan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ramadan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AD0CD22F4EFB5A00C6F62C /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		D5AD0CD52F4F0A7300C6F62C /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		D5AD0CD72F4F0FB300C6F62C /* DailyQuoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteCard.swift; sourceTree = "<group>"; };
+		D5AD0CD82F4F0FB300C6F62C /* NextPrayerCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerCountdown.swift; sourceTree = "<group>"; };
+		D5AD0CDC2F4F0FCB00C6F62C /* EnhancedDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedDashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5A857EB2F44357B00C97884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B037318F1443F8BEB7257D0A /* Pods_Ramadan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D20EFCAFA80A0573E939685 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A011C042FC62EAB5A30CD9 /* Pods_Ramadan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50BD69D2F4C2554007155AE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D50BD69C2F4C2554007155AE /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D50BD6A02F4C2554007155AE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				D50BD69E2F4C2554007155AE /* LocationManager.swift */,
+				D50BD69F2F4C2554007155AE /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		D50BD6A22F4C2554007155AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D50BD6A12F4C2554007155AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D50BD6A52F4C2554007155AE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D50BD6A32F4C2554007155AE /* PrayerTimesCalculator.swift */,
+				D50BD6A42F4C2554007155AE /* QiblaCalculator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D50BD6AB2F4C2554007155AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD0CD92F4F0FB300C6F62C /* Components */,
+				D50BD6A62F4C2554007155AE /* DailyLogView.swift */,
+				D5AD0CD52F4F0A7300C6F62C /* CustomTabBar.swift */,
+				D5AD0CDC2F4F0FCB00C6F62C /* EnhancedDashboardView.swift */,
+				D50BD6A72F4C2554007155AE /* DashboardView.swift */,
+				D50BD6A82F4C2554007155AE /* MessagesNotesView.swift */,
+				D50BD6A92F4C2554007155AE /* PrayerTimesView.swift */,
+				D50BD6AA2F4C2554007155AE /* QiblaCompassView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D50BD6B62F4C2554007155AE /* Ramadan */ = {
+			isa = PBXGroup;
+			children = (
+				D50BD69D2F4C2554007155AE /* CoreData */,
+				D50BD6A02F4C2554007155AE /* Managers */,
+				D50BD6A22F4C2554007155AE /* Preview Content */,
+				D50BD6A52F4C2554007155AE /* Utilities */,
+				D50BD6AB2F4C2554007155AE /* Views */,
+				D5AD0CD32F4EFB5A00C6F62C /* Theme */,
+				D50BD6AE2F4C2554007155AE /* Assets.xcassets */,
+				D50BD6AF2F4C2554007155AE /* ContentView.swift */,
+				D50BD6B02F4C2554007155AE /* Info.plist */,
+				D50BD6B32F4C2554007155AE /* RamadanApp.swift */,
+				D50BD6B42F4C2554007155AE /* RamadanDataModel.xcdatamodeld */,
+			);
+			path = Ramadan;
+			sourceTree = "<group>";
+		};
+		D5A857E52F44357B00C97884 = {
+			isa = PBXGroup;
+			children = (
+				D50BD6B62F4C2554007155AE /* Ramadan */,
+				D5A857EF2F44357B00C97884 /* Products */,
+				FC790A1EE7A95E8EB6826359 /* Pods */,
+				8D20EFCAFA80A0573E939685 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5A857EF2F44357B00C97884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A857EE2F44357B00C97884 /* Ramadan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AD0CD32F4EFB5A00C6F62C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD0CD22F4EFB5A00C6F62C /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		D5AD0CD92F4F0FB300C6F62C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD0CD72F4F0FB300C6F62C /* DailyQuoteCard.swift */,
+				D5AD0CD82F4F0FB300C6F62C /* NextPrayerCountdown.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC790A1EE7A95E8EB6826359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				504E333E078E45ABBC5D9200 /* Pods-Ramadan.debug.xcconfig */,
+				A94A150AA3E323F200A1DB74 /* Pods-Ramadan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5A857ED2F44357B00C97884 /* Ramadan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A857FC2F44357C00C97884 /* Build configuration list for PBXNativeTarget "Ramadan" */;
+			buildPhases = (
+				68314606CBBE32759F33D5DB /* [CP] Check Pods Manifest.lock */,
+				D5A857EA2F44357B00C97884 /* Sources */,
+				D5A857EB2F44357B00C97884 /* Frameworks */,
+				D5A857EC2F44357B00C97884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ramadan;
+			productName = Ramadan;
+			productReference = D5A857EE2F44357B00C97884 /* Ramadan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5A857E62F44357B00C97884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D5A857ED2F44357B00C97884 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D5A857E92F44357B00C97884 /* Build configuration list for PBXProject "Ramadan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5A857E52F44357B00C97884;
+			productRefGroup = D5A857EF2F44357B00C97884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5A857ED2F44357B00C97884 /* Ramadan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5A857EC2F44357B00C97884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BD6CB2F4C2554007155AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68314606CBBE32759F33D5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ramadan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5A857EA2F44357B00C97884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BD6B82F4C2554007155AE /* PersistenceController.swift in Sources */,
+				D50BD6B92F4C2554007155AE /* LocationManager.swift in Sources */,
+				D5AD0CD42F4EFB5A00C6F62C /* AppTheme.swift in Sources */,
+				D50BD6BA2F4C2554007155AE /* NotificationManager.swift in Sources */,
+				D50BD6BB2F4C2554007155AE /* PrayerTimesCalculator.swift in Sources */,
+				D5AD0CDA2F4F0FB300C6F62C /* NextPrayerCountdown.swift in Sources */,
+				D5AD0CDB2F4F0FB300C6F62C /* DailyQuoteCard.swift in Sources */,
+				D50BD6BC2F4C2554007155AE /* QiblaCalculator.swift in Sources */,
+				D50BD6BD2F4C2554007155AE /* DailyLogView.swift in Sources */,
+				D50BD6BE2F4C2554007155AE /* DashboardView.swift in Sources */,
+				D50BD6BF2F4C2554007155AE /* MessagesNotesView.swift in Sources */,
+				D50BD6C02F4C2554007155AE /* PrayerTimesView.swift in Sources */,
+				D50BD6C12F4C2554007155AE /* QiblaCompassView.swift in Sources */,
+				D50BD6C42F4C2554007155AE /* ContentView.swift in Sources */,
+				D5AD0CD62F4F0A7300C6F62C /* CustomTabBar.swift in Sources */,
+				D50BD6C72F4C2554007155AE /* RamadanApp.swift in Sources */,
+				D50BD6C82F4C2554007155AE /* RamadanDataModel.xcdatamodeld in Sources */,
+				D5AD0CDD2F4F0FCB00C6F62C /* EnhancedDashboardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5A857FA2F44357C00C97884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5A857FB2F44357C00C97884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5A857FD2F44357C00C97884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504E333E078E45ABBC5D9200 /* Pods-Ramadan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ramadan/Preview Content\"";
+				DEVELOPMENT_TEAM = 93XL69U5T3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ramadan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to calculate accurate prayer times and Qibla direction";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to calculate accurate prayer times and Qibla direction";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need access to motion sensors for accurate Qibla compass direction";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.m.ramadan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5A857FE2F44357C00C97884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94A150AA3E323F200A1DB74 /* Pods-Ramadan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ramadan/Preview Content\"";
+				DEVELOPMENT_TEAM = 93XL69U5T3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ramadan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to calculate accurate prayer times and Qibla direction";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to calculate accurate prayer times and Qibla direction";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We need access to motion sensors for accurate Qibla compass direction";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.m.ramadan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5A857E92F44357B00C97884 /* Build configuration list for PBXProject "Ramadan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A857FA2F44357C00C97884 /* Debug */,
+				D5A857FB2F44357C00C97884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A857FC2F44357C00C97884 /* Build configuration list for PBXNativeTarget "Ramadan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A857FD2F44357C00C97884 /* Debug */,
+				D5A857FE2F44357C00C97884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D50BD6B42F4C2554007155AE /* RamadanDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D50BD6B72F4C2554007155AE /* RamadanDataModel.xcdatamodel */,
+			);
+			currentVersion = D50BD6B72F4C2554007155AE /* RamadanDataModel.xcdatamodel */;
+			path = RamadanDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5A857E62F44357B00C97884 /* Project object */;
+}
