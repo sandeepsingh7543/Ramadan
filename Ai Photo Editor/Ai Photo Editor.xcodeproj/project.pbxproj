@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826200ED54156B266A753D6A /* Pods_Ai_Photo_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C93735D41F0417E318BF0EE /* Pods_Ai_Photo_Editor.framework */; };
+		D5C9B5B22F3F1D52004832B8 /* EditAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5932F3F1D52004832B8 /* EditAction.swift */; };
+		D5C9B5B32F3F1D52004832B8 /* PhotoEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5972F3F1D52004832B8 /* PhotoEditorViewModel.swift */; };
+		D5C9B5B42F3F1D52004832B8 /* AdjustmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5992F3F1D52004832B8 /* AdjustmentsView.swift */; };
+		D5C9B5B52F3F1D52004832B8 /* AdjustPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59A2F3F1D52004832B8 /* AdjustPanel.swift */; };
+		D5C9B5B62F3F1D52004832B8 /* AIToolsPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59B2F3F1D52004832B8 /* AIToolsPanel.swift */; };
+		D5C9B5B72F3F1D52004832B8 /* EffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59C2F3F1D52004832B8 /* EffectsView.swift */; };
+		D5C9B5B82F3F1D52004832B8 /* FiltersGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59D2F3F1D52004832B8 /* FiltersGridView.swift */; };
+		D5C9B5B92F3F1D52004832B8 /* FiltersPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59E2F3F1D52004832B8 /* FiltersPanel.swift */; };
+		D5C9B5BA2F3F1D52004832B8 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B59F2F3F1D52004832B8 /* PhotoPicker.swift */; };
+		D5C9B5BB2F3F1D52004832B8 /* TransformPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A02F3F1D52004832B8 /* TransformPanel.swift */; };
+		D5C9B5BC2F3F1D52004832B8 /* TransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A12F3F1D52004832B8 /* TransformView.swift */; };
+		D5C9B5BD2F3F1D52004832B8 /* UtilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A22F3F1D52004832B8 /* UtilityView.swift */; };
+		D5C9B5BE2F3F1D52004832B8 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A42F3F1D52004832B8 /* EditorView.swift */; };
+		D5C9B5BF2F3F1D52004832B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A52F3F1D52004832B8 /* HomeView.swift */; };
+		D5C9B5C02F3F1D52004832B8 /* PrivacyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A62F3F1D52004832B8 /* PrivacyInfoView.swift */; };
+		D5C9B5C12F3F1D52004832B8 /* Ai_Photo_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5A82F3F1D52004832B8 /* Ai_Photo_EditorApp.swift */; };
+		D5C9B5C22F3F1D52004832B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9B5AB2F3F1D52004832B8 /* ContentView.swift */; };
+		D5C9B5C62F3F1D52004832B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C9B5952F3F1D52004832B8 /* Preview Assets.xcassets */; };
+		D5C9B5C72F3F1D52004832B8 /* APP_STORE_SUBMISSION_PACKAGE.md in Resources */ = {isa = PBXBuildFile; fileRef = D5C9B5A92F3F1D52004832B8 /* APP_STORE_SUBMISSION_PACKAGE.md */; };
+		D5C9B5C82F3F1D52004832B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C9B5AA2F3F1D52004832B8 /* Assets.xcassets */; };
+		D5C9B5C92F3F1D52004832B8 /* FINAL_REVIEW_SUMMARY.md in Resources */ = {isa = PBXBuildFile; fileRef = D5C9B5AC2F3F1D52004832B8 /* FINAL_REVIEW_SUMMARY.md */; };
+		D5C9B5CA2F3F1D52004832B8 /* FINAL_SUBMISSION_CHECKLIST.md in Resources */ = {isa = PBXBuildFile; fileRef = D5C9B5AD2F3F1D52004832B8 /* FINAL_SUBMISSION_CHECKLIST.md */; };
+		D5C9B5CD2F3F1E22004832B8 /* FingerprintPro in Frameworks */ = {isa = PBXBuildFile; productRef = D5C9B5CC2F3F1E22004832B8 /* FingerprintPro */; };
+		D5C9B5D02F3F1E50004832B8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D5C9B5CF2F3F1E50004832B8 /* FirebaseAnalytics */; };
+		D5C9B5D22F3F1E50004832B8 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = D5C9B5D12F3F1E50004832B8 /* FirebaseRemoteConfig */; };
+		D5EFFCAB2F3F24B8000C0ED4 /* AdjustSdk in Frameworks */ = {isa = PBXBuildFile; productRef = D5EFFCAA2F3F24B8000C0ED4 /* AdjustSdk */; };
+		D5EFFCAD2F3F24B8000C0ED4 /* AdjustWebBridge in Frameworks */ = {isa = PBXBuildFile; productRef = D5EFFCAC2F3F24B8000C0ED4 /* AdjustWebBridge */; };
+		D5EFFCB42F3F2507000C0ED4 /* PrimaryNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFCB32F3F2507000C0ED4 /* PrimaryNavigationView.swift */; };
+		D5EFFCB62F3F2510000C0ED4 /* WebContentLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFCB52F3F2510000C0ED4 /* WebContentLoader.swift */; };
+		D5EFFCB82F3F2516000C0ED4 /* RemoteConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFCB72F3F2516000C0ED4 /* RemoteConfigurationManager.swift */; };
+		D5EFFCC02F3F268F000C0ED4 /* UnityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFCBF2F3F268F000C0ED4 /* UnityManager.swift */; };
+		D5EFFCC22F3F26A5000C0ED4 /* AdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFCC12F3F26A5000C0ED4 /* AdManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C93735D41F0417E318BF0EE /* Pods_Ai_Photo_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ai_Photo_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE26ABDEE7EFC3D0B56DF32 /* Pods-Ai Photo Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ai Photo Editor.debug.xcconfig"; path = "Target Support Files/Pods-Ai Photo Editor/Pods-Ai Photo Editor.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EFEABFD5E170DFDFA3D853 /* Pods-Ai Photo Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ai Photo Editor.release.xcconfig"; path = "Target Support Files/Pods-Ai Photo Editor/Pods-Ai Photo Editor.release.xcconfig"; sourceTree = "<group>"; };
+		D5C9B5932F3F1D52004832B8 /* EditAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAction.swift; sourceTree = "<group>"; };
+		D5C9B5952F3F1D52004832B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5C9B5972F3F1D52004832B8 /* PhotoEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewModel.swift; sourceTree = "<group>"; };
+		D5C9B5992F3F1D52004832B8 /* AdjustmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustmentsView.swift; sourceTree = "<group>"; };
+		D5C9B59A2F3F1D52004832B8 /* AdjustPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustPanel.swift; sourceTree = "<group>"; };
+		D5C9B59B2F3F1D52004832B8 /* AIToolsPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIToolsPanel.swift; sourceTree = "<group>"; };
+		D5C9B59C2F3F1D52004832B8 /* EffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsView.swift; sourceTree = "<group>"; };
+		D5C9B59D2F3F1D52004832B8 /* FiltersGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersGridView.swift; sourceTree = "<group>"; };
+		D5C9B59E2F3F1D52004832B8 /* FiltersPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersPanel.swift; sourceTree = "<group>"; };
+		D5C9B59F2F3F1D52004832B8 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		D5C9B5A02F3F1D52004832B8 /* TransformPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformPanel.swift; sourceTree = "<group>"; };
+		D5C9B5A12F3F1D52004832B8 /* TransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformView.swift; sourceTree = "<group>"; };
+		D5C9B5A22F3F1D52004832B8 /* UtilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityView.swift; sourceTree = "<group>"; };
+		D5C9B5A42F3F1D52004832B8 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		D5C9B5A52F3F1D52004832B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D5C9B5A62F3F1D52004832B8 /* PrivacyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyInfoView.swift; sourceTree = "<group>"; };
+		D5C9B5A82F3F1D52004832B8 /* Ai_Photo_EditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ai_Photo_EditorApp.swift; sourceTree = "<group>"; };
+		D5C9B5A92F3F1D52004832B8 /* APP_STORE_SUBMISSION_PACKAGE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = APP_STORE_SUBMISSION_PACKAGE.md; sourceTree = "<group>"; };
+		D5C9B5AA2F3F1D52004832B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C9B5AB2F3F1D52004832B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C9B5AC2F3F1D52004832B8 /* FINAL_REVIEW_SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FINAL_REVIEW_SUMMARY.md; sourceTree = "<group>"; };
+		D5C9B5AD2F3F1D52004832B8 /* FINAL_SUBMISSION_CHECKLIST.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FINAL_SUBMISSION_CHECKLIST.md; sourceTree = "<group>"; };
+		D5D00F3F2F39A53800CC9821 /* Ai Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFFCB32F3F2507000C0ED4 /* PrimaryNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryNavigationView.swift; sourceTree = "<group>"; };
+		D5EFFCB52F3F2510000C0ED4 /* WebContentLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentLoader.swift; sourceTree = "<group>"; };
+		D5EFFCB72F3F2516000C0ED4 /* RemoteConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigurationManager.swift; sourceTree = "<group>"; };
+		D5EFFCB92F3F2527000C0ED4 /* Ai-Photo-Editor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Ai-Photo-Editor-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D5EFFCBF2F3F268F000C0ED4 /* UnityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityManager.swift; sourceTree = "<group>"; };
+		D5EFFCC12F3F26A5000C0ED4 /* AdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5D00F3C2F39A53800CC9821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826200ED54156B266A753D6A /* Pods_Ai_Photo_Editor.framework in Frameworks */,
+				D5C9B5CD2F3F1E22004832B8 /* FingerprintPro in Frameworks */,
+				D5C9B5D02F3F1E50004832B8 /* FirebaseAnalytics in Frameworks */,
+				D5EFFCAD2F3F24B8000C0ED4 /* AdjustWebBridge in Frameworks */,
+				D5EFFCAB2F3F24B8000C0ED4 /* AdjustSdk in Frameworks */,
+				D5C9B5D22F3F1E50004832B8 /* FirebaseRemoteConfig in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D4C7DF5D5E63B24CA4BCE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C93735D41F0417E318BF0EE /* Pods_Ai_Photo_Editor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5C9B5942F3F1D52004832B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5932F3F1D52004832B8 /* EditAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5C9B5962F3F1D52004832B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5952F3F1D52004832B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5C9B5982F3F1D52004832B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5972F3F1D52004832B8 /* PhotoEditorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D5C9B5A32F3F1D52004832B8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5992F3F1D52004832B8 /* AdjustmentsView.swift */,
+				D5C9B59A2F3F1D52004832B8 /* AdjustPanel.swift */,
+				D5C9B59B2F3F1D52004832B8 /* AIToolsPanel.swift */,
+				D5C9B59C2F3F1D52004832B8 /* EffectsView.swift */,
+				D5C9B59D2F3F1D52004832B8 /* FiltersGridView.swift */,
+				D5C9B59E2F3F1D52004832B8 /* FiltersPanel.swift */,
+				D5C9B59F2F3F1D52004832B8 /* PhotoPicker.swift */,
+				D5C9B5A02F3F1D52004832B8 /* TransformPanel.swift */,
+				D5C9B5A12F3F1D52004832B8 /* TransformView.swift */,
+				D5C9B5A22F3F1D52004832B8 /* UtilityView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D5C9B5A72F3F1D52004832B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5A32F3F1D52004832B8 /* Components */,
+				D5C9B5A42F3F1D52004832B8 /* EditorView.swift */,
+				D5C9B5A52F3F1D52004832B8 /* HomeView.swift */,
+				D5C9B5A62F3F1D52004832B8 /* PrivacyInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5C9B5B12F3F1D52004832B8 /* Ai Photo Editor */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFFCB92F3F2527000C0ED4 /* Ai-Photo-Editor-Info.plist */,
+				D5C9B5942F3F1D52004832B8 /* Models */,
+				D5C9B5962F3F1D52004832B8 /* Preview Content */,
+				D5C9B5982F3F1D52004832B8 /* ViewModels */,
+				D5C9B5A72F3F1D52004832B8 /* Views */,
+				D5C9B5A82F3F1D52004832B8 /* Ai_Photo_EditorApp.swift */,
+				D5C9B5A92F3F1D52004832B8 /* APP_STORE_SUBMISSION_PACKAGE.md */,
+				D5C9B5AA2F3F1D52004832B8 /* Assets.xcassets */,
+				D5C9B5AB2F3F1D52004832B8 /* ContentView.swift */,
+				D5C9B5AC2F3F1D52004832B8 /* FINAL_REVIEW_SUMMARY.md */,
+				D5C9B5AD2F3F1D52004832B8 /* FINAL_SUBMISSION_CHECKLIST.md */,
+				D5EFFCB32F3F2507000C0ED4 /* PrimaryNavigationView.swift */,
+				D5EFFCB52F3F2510000C0ED4 /* WebContentLoader.swift */,
+				D5EFFCB72F3F2516000C0ED4 /* RemoteConfigurationManager.swift */,
+				D5EFFCBF2F3F268F000C0ED4 /* UnityManager.swift */,
+				D5EFFCC12F3F26A5000C0ED4 /* AdManager.swift */,
+			);
+			path = "Ai Photo Editor";
+			sourceTree = "<group>";
+		};
+		D5D00F362F39A53800CC9821 = {
+			isa = PBXGroup;
+			children = (
+				D5C9B5B12F3F1D52004832B8 /* Ai Photo Editor */,
+				D5D00F402F39A53800CC9821 /* Products */,
+				F36F9011A7DC3921E326E02C /* Pods */,
+				29D4C7DF5D5E63B24CA4BCE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5D00F402F39A53800CC9821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D00F3F2F39A53800CC9821 /* Ai Photo Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36F9011A7DC3921E326E02C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE26ABDEE7EFC3D0B56DF32 /* Pods-Ai Photo Editor.debug.xcconfig */,
+				A4EFEABFD5E170DFDFA3D853 /* Pods-Ai Photo Editor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5D00F3E2F39A53800CC9821 /* Ai Photo Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5D00F4D2F39A53A00CC9821 /* Build configuration list for PBXNativeTarget "Ai Photo Editor" */;
+			buildPhases = (
+				58E31B91D3C4F56F4BDC23B0 /* [CP] Check Pods Manifest.lock */,
+				D5D00F3B2F39A53800CC9821 /* Sources */,
+				D5D00F3C2F39A53800CC9821 /* Frameworks */,
+				D5D00F3D2F39A53800CC9821 /* Resources */,
+				0A8615A107F7D41A1A08DB4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ai Photo Editor";
+			productName = "Ai Photo Editor";
+			productReference = D5D00F3F2F39A53800CC9821 /* Ai Photo Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5D00F372F39A53800CC9821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D5D00F3E2F39A53800CC9821 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = D5D00F3A2F39A53800CC9821 /* Build configuration list for PBXProject "Ai Photo Editor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5D00F362F39A53800CC9821;
+			packageReferences = (
+				D5C9B5CB2F3F1E22004832B8 /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */,
+				D5C9B5CE2F3F1E50004832B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D5EFFCA92F3F24B8000C0ED4 /* XCRemoteSwiftPackageReference "ios_sdk" */,
+			);
+			productRefGroup = D5D00F402F39A53800CC9821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5D00F3E2F39A53800CC9821 /* Ai Photo Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5D00F3D2F39A53800CC9821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C9B5C62F3F1D52004832B8 /* Preview Assets.xcassets in Resources */,
+				D5C9B5C72F3F1D52004832B8 /* APP_STORE_SUBMISSION_PACKAGE.md in Resources */,
+				D5C9B5C82F3F1D52004832B8 /* Assets.xcassets in Resources */,
+				D5C9B5C92F3F1D52004832B8 /* FINAL_REVIEW_SUMMARY.md in Resources */,
+				D5C9B5CA2F3F1D52004832B8 /* FINAL_SUBMISSION_CHECKLIST.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A8615A107F7D41A1A08DB4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ai Photo Editor/Pods-Ai Photo Editor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ai Photo Editor/Pods-Ai Photo Editor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ai Photo Editor/Pods-Ai Photo Editor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E31B91D3C4F56F4BDC23B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ai Photo Editor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5D00F3B2F39A53800CC9821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C9B5B22F3F1D52004832B8 /* EditAction.swift in Sources */,
+				D5EFFCB42F3F2507000C0ED4 /* PrimaryNavigationView.swift in Sources */,
+				D5C9B5B32F3F1D52004832B8 /* PhotoEditorViewModel.swift in Sources */,
+				D5C9B5B42F3F1D52004832B8 /* AdjustmentsView.swift in Sources */,
+				D5EFFCB82F3F2516000C0ED4 /* RemoteConfigurationManager.swift in Sources */,
+				D5C9B5B52F3F1D52004832B8 /* AdjustPanel.swift in Sources */,
+				D5C9B5B62F3F1D52004832B8 /* AIToolsPanel.swift in Sources */,
+				D5C9B5B72F3F1D52004832B8 /* EffectsView.swift in Sources */,
+				D5C9B5B82F3F1D52004832B8 /* FiltersGridView.swift in Sources */,
+				D5C9B5B92F3F1D52004832B8 /* FiltersPanel.swift in Sources */,
+				D5C9B5BA2F3F1D52004832B8 /* PhotoPicker.swift in Sources */,
+				D5C9B5BB2F3F1D52004832B8 /* TransformPanel.swift in Sources */,
+				D5C9B5BC2F3F1D52004832B8 /* TransformView.swift in Sources */,
+				D5EFFCB62F3F2510000C0ED4 /* WebContentLoader.swift in Sources */,
+				D5C9B5BD2F3F1D52004832B8 /* UtilityView.swift in Sources */,
+				D5C9B5BE2F3F1D52004832B8 /* EditorView.swift in Sources */,
+				D5C9B5BF2F3F1D52004832B8 /* HomeView.swift in Sources */,
+				D5EFFCC02F3F268F000C0ED4 /* UnityManager.swift in Sources */,
+				D5C9B5C02F3F1D52004832B8 /* PrivacyInfoView.swift in Sources */,
+				D5C9B5C12F3F1D52004832B8 /* Ai_Photo_EditorApp.swift in Sources */,
+				D5EFFCC22F3F26A5000C0ED4 /* AdManager.swift in Sources */,
+				D5C9B5C22F3F1D52004832B8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5D00F4B2F39A53A00CC9821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5D00F4C2F39A53A00CC9821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5D00F4E2F39A53A00CC9821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE26ABDEE7EFC3D0B56DF32 /* Pods-Ai Photo Editor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ai Photo Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = DJM47H9BMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ai-Photo-Editor-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MagicPix;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "AI Photo Editor needs permission to save your edited photos back to your photo library. Your photos remain private and are stored only on your device.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AI Photo Editor needs access to your photo library to let you select photos for editing. All photos are processed locally on your device and are never uploaded to any server or shared with third parties.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your information to display relevant and better ads, enhancing your experience with more personalized content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.har.aiphotoeditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5D00F4F2F39A53A00CC9821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFEABFD5E170DFDFA3D853 /* Pods-Ai Photo Editor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ai Photo Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = DJM47H9BMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ai-Photo-Editor-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MagicPix;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "AI Photo Editor needs permission to save your edited photos back to your photo library. Your photos remain private and are stored only on your device.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "AI Photo Editor needs access to your photo library to let you select photos for editing. All photos are processed locally on your device and are never uploaded to any server or shared with third parties.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your information to display relevant and better ads, enhancing your experience with more personalized content.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.har.aiphotoeditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5D00F3A2F39A53800CC9821 /* Build configuration list for PBXProject "Ai Photo Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D00F4B2F39A53A00CC9821 /* Debug */,
+				D5D00F4C2F39A53A00CC9821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5D00F4D2F39A53A00CC9821 /* Build configuration list for PBXNativeTarget "Ai Photo Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5D00F4E2F39A53A00CC9821 /* Debug */,
+				D5D00F4F2F39A53A00CC9821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5C9B5CB2F3F1E22004832B8 /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fingerprintjs/fingerprintjs-pro-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.12.0;
+			};
+		};
+		D5C9B5CE2F3F1E50004832B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+		D5EFFCA92F3F24B8000C0ED4 /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adjust/ios_sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5C9B5CC2F3F1E22004832B8 /* FingerprintPro */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C9B5CB2F3F1E22004832B8 /* XCRemoteSwiftPackageReference "fingerprintjs-pro-ios" */;
+			productName = FingerprintPro;
+		};
+		D5C9B5CF2F3F1E50004832B8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C9B5CE2F3F1E50004832B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D5C9B5D12F3F1E50004832B8 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C9B5CE2F3F1E50004832B8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		D5EFFCAA2F3F24B8000C0ED4 /* AdjustSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5EFFCA92F3F24B8000C0ED4 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustSdk;
+		};
+		D5EFFCAC2F3F24B8000C0ED4 /* AdjustWebBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5EFFCA92F3F24B8000C0ED4 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustWebBridge;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5D00F372F39A53800CC9821 /* Project object */;
+}
